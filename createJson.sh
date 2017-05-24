@@ -1,7 +1,32 @@
 #!/bin/bash
-# script para generar JSON
-#./createJson.sh App1 proce1 DEV componente1 version2 
-
+#
+# Este script genera un JSON llamado app.json el cual es utilizado para realizar ejecuciones de UCD via UDCliente
+#
+#
+#
+#
+# params:
+#  1 = Name Application UCD
+#  2 = Name Process Application UCD
+#  3 = Enviroment Process Aplication UCD
+#  
+#  4 = Componente
+#  5 = version
+#  
+#  para más de un componente se deben agregar más parametros en el orden Componente  Version
+#
+#
+#  Ejemplo con un Componente:
+#
+#  ./createJson.sh AplicacionTest ProcessDeploy Development componenteSQL 2.3 
+#
+#  Ejemplo con más de un componente:
+#
+#
+#
+#  ./createJson.sh AplicacionTest ProcessDeploy Development componenteSQL 2.3 ComponenteWeb 1.1
+#
+###########################################################################################################################
 
 app=$1
 process=$2
