@@ -1,0 +1,10 @@
+{
+"application": "APP",
+"applicationProcess": "PROAPP",
+"environment": "DEV",
+"onlyChanged": "true",
+"versions": [{
+    "component": "COM1",
+    "version": "1.0"
+  }]
+}
